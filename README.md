@@ -21,6 +21,7 @@ If installing from source, be sure to build the gazebo_X.Y (X.Y being your desir
 -...
 
 Run the robot:
+
 -copy the diff_wheeled_robot_gazebo folder into the /catkin_ws/src
 
 -catkin_make/build in the /catkin_ws
