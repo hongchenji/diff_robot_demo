@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="diff_wheeled_robot_gazebo" type="velocity_pub" name="velocity_pub" output="screen">
+        <rosparam file="$(find diff_wheeled_robot_gazebo)/config/velocity_params.yaml" command="load"/>
+    </node>
+</launch>
